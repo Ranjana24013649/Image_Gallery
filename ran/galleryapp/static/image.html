@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>World Wonders Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>World Wonders Interactive Gallery</h1>
+    <h3>Presented by Ranjana R 212224040270</h3>
+  </header>
+
+  <main class="gallery">
+    <div class="gallery-item" data-title="Santorini, Greece" data-info="Famous for its whitewashed buildings, blue domes, and stunning sunsets over the Aegean Sea.">
+      <img src="de.png" alt="Santorini">
+    </div>
+    <div class="gallery-item" data-title="Machu Picchu, Peru" data-info="An ancient Incan city nestled in the Andes, known for its breathtaking mountain views.">
+      <img src="cd.png" alt="Machu Picchu">
+    </div>
+    <div class="gallery-item" data-title="Kyoto, Japan" data-info="A city rich in culture, temples, cherry blossoms, and serene gardens.">
+      <img src="bc.png" alt="Kyoto">
+    </div>
+    <div class="gallery-item" data-title="Banff, Canada" data-info="Banff National Park is a paradise of turquoise lakes, mountains, and wildlife.">
+      <img src="ab.png" alt="Banff">
+    </div>
+  </main>
+
+  <div class="modal" id="modal">
+    <div class="modal-content" id="modalTextContent"></div>
+    <button class="modal-close" id="closeModal">&times;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
