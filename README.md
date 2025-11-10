@@ -31,6 +31,8 @@ Publish the website in the given URL.
 
 ## PROGRAM
 ```
+HTML
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -72,6 +74,7 @@ Publish the website in the given URL.
 </html>
 
 JS
+
 const galleryItems = document.querySelectorAll('.gallery-item');
 const modal = document.getElementById('modal');
 const modalTextContent = document.getElementById('modalTextContent');
